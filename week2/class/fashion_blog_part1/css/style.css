@@ -1,0 +1,154 @@
+/* 
+Project Name: Fasion Blog
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+/* Clear */ 
+.clear {
+     clear: both;
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.bodyexitlink{
+     color: red;
+     font-size: 16px;
+     font-weight: bold;
+}
+
+body {
+     font-family: 'Lato', sans-serif;
+     padding: 50px;
+     font-size: 18px;
+     line-height: 1.5;
+     background: #FFF;
+     width: 60em;
+}
+#maincontent {
+     float: left;
+     width: 80%;
+     padding-right: 20px;
+}
+
+aside {
+     float: right;
+     width: 20%;
+}
+aside img {
+     max-width: 100%;
+}
+article img {
+     max-width: 100%;
+}
+
+header h1,
+header h2, {
+     display: inline-block;
+}
+
+
+h1{
+     /*float: left;*/
+     padding-right: 10px;
+}
+h1 a {
+     color: #CC081F;
+     font-size: 60px;
+}
+h3{
+     font-weight: bold;
+     font-size: 20px
+}
+
+header h2 {
+     font-size: 25px;
+     color: black;
+     line-height: 2;
+}
+header nav{
+     clear: both;
+}
+
+header nav a {
+     color: #D8D8D8;
+     line-height: 1.5em;
+     content: ' ';
+     border-bottom: 1.5px solid;
+     padding-bottom: 2px;
+     margin: ;
+
+}
+
+header nav div {
+     vertical-align: horizontal;
+     text-align: justify;
+}
+article p:first-letter {
+     float: left;
+     font-size: 60px;
+     line-height: 1;
+     color: #DDD;
+}
+
+article p {
+     padding
+}
+
+article h3 {
+     color: #D8D8D8;
+}
+
+article h2 a {
+     color: #080808;
+}
+
+a:link {
+     text-decoration: none;
+}
+
+a:visited {
+     text-decoration: none;
+}
+
+a:hover {
+     text-decoration: none;
+}
+
+a:active {
+     text-decoration: none;
+}
+h4{
+     font-weight: bold;
+     text-align: right;
+}
+
+.boxes{
+     margin: 5px;
+     color: #FFF;
+     background: black;
+     display: block;
+     padding: 5px;
+     border-bottom: 2px solid black;
+}
+a{
+     margin: 5px
+}
+
+
+

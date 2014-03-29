@@ -1,0 +1,121 @@
+*{
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #F5F5F5	;
+	color: #777777;
+}
+.mainbody {
+	padding: 50px;
+}
+a {
+	font-weight: bold;
+	font-size: 14px;
+	color: #777777;
+}
+
+strong {
+	color: #777777;
+	font-size: 15px;
+}
+
+h1 {
+	font-family: Arial, serif;
+	font-weight: normal;
+	text-align: justify;
+	margin-top: 0;
+}
+
+h2 {
+	color: #777777;
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 18px;
+	color: #BBBBBB;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 42px;
+}
+
+h4 {
+	font-weight:bolder;
+	margin-bottom: 0;
+}
+h5{
+font-style: italic;
+	margin: 0 0 0 0;
+	font-weight: normal;
+}
+
+p {
+	font-family: Georgia, serif;
+	margin: 0 30 20 0
+}
+
+ul {
+	list-style: square;
+}
+
+ul p {
+	color: #808080;
+	font-size: 16px;
+	text-align: left;
+	margin-right: 30px;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #999999;
+	margin: 30px 0;
+}
+
+img {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+
+nav {
+	color: #999999;
+	text-align: justify;
+}
+label{
+	font-weight: bold;
+	font-size: 14px;
+}
+input,textarea{
+	background: #FFF5EE;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background:white;
+}
+.button{
+	position: left;
+}
+.bgSizeCover {
+  height: 500px;
+  background-image: url('https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/68635_10100319493315236_1235886175_n.jpg');
+  background-size: cover;
+  border: 1px solid darkgray;
+  color: #000; text-shadow: 1px 1px 0 #fff;
+
+}
+a:link {background-color:#B2FF99;}
+a:visited {background-color:#FFFF85;}
+a:hover {background-color:#FF704D;}
+a:active {background-color:#FF704D;}

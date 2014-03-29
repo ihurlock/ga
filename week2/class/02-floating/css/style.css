@@ -1,0 +1,26 @@
+header, 
+#main, 
+aside, 
+footer {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+header {
+  background: red;
+}
+#main {
+  background: yellow;
+  width: 60%;
+  float: left;
+}
+aside {
+  background: green;
+  width: 40%;
+  float: right;
+}
+footer {
+  background: blue;
+  clear: both;
+  /* clear: both; gets rid of all floating behaviour that it is trying to mimic*/
+}

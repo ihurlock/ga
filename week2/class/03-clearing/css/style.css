@@ -1,0 +1,31 @@
+/* Clear */ 
+.clear {
+	clear: both;
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.box {
+	padding: 20px;
+	margin: 10px;
+	width: 100px;
+}
+
+#boxes .box {
+	background: blue;
+	float: left;
+}
+
+#boxes2 .box {
+	background: red;
+	float: left;
+}
