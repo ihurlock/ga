@@ -30,9 +30,9 @@
 
 body {
      color: black;
-     font-size: 12px;
+     font-size: 1em;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
 }
 .container {
      width: 960px;
@@ -43,8 +43,8 @@ body {
 header{
      background-color: black;
      color: white;
-     height: 100px;
      border-bottom: 5px yellow solid;
+     height: 140px;
 }
 
 header a{
@@ -55,30 +55,42 @@ header a{
 header .nav-em{
      font-family: 'Oswald', sans-serif;
      text-transform: uppercase;
-     font-size: 20px;
 }
 
 header h1{
-     float: left;
+     padding: 10px;
      color: yellow;
      font-family: 'Merriweather', serif;
 }
 
-header nav a {
-     display: block;
-     padding: 10px 15px;
+header nav li {
+     display: inline-block;
+     font-size: 1.4em;
+}
+header nav{
+     margin-left: 110px;
 }
 
-header nav{
-     float: right;
+span{
+     text-decoration: line-through;
+     color: gray;
+}
+
+.under{
+     color: black;
+     text-decoration: none;
+     border-bottom: 2px solid yellow;
+     padding-bottom: 2px;
 }
 
 nav ul li {
      float: left;
      color: white;
+     padding-left: 20px;
 }
 
 h2{
+     font-family: 'Merriweather', serif;
 
 }
 .subheader{
@@ -101,15 +113,35 @@ h2{
 
 .floatbox{
      padding: 4%;
-     margin-right: 50px;
+     margin-right: 3em;
      float: right;
      width: 30%;
      border: grey 2px solid;
      background: rgba(255,255,255,.8)
 }
 
+.button{
+     background: #B7BAB6;
+     padding: 5px 20px 5px 20px;
+     text-transform: uppercase;
+     font-family: 'Oswald', sans-serif;
+     border: 3px outset #B7BAB6;
+     border-radius: 5px;
+  margin: 40px;
+}
+
+.yellowbutton{
+     background: yellow;
+     padding: 5px 20px 5px 20px;
+     text-transform: uppercase;
+     font-family: 'Oswald', sans-serif;
+     border-style: outset;
+     border-color: gray;
+}
+
 #triple{
      clear: both;
+     padding: 30px 30px 30px 30px;
 }
 
 .triplebox{
