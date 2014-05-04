@@ -1,0 +1,241 @@
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    background: black;
+}
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0.3em 0;
+    padding: 0;
+}
+
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+.header {
+    background: white;
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2em;
+    clear: both;
+    height: 18%;
+}
+.footer {
+    background: white;
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0.5%;
+    clear: both;
+    height: 18%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    cursor: default;
+    background-color: #f3f3f3;
+    height: auto;
+    
+}
+
+
+.featuredcontent {
+    background: url(../img/sunsetbg.jpg) no-repeat fixed center;
+}
+
+.eatcontent,
+.drinkcontent,
+.chillcontent,
+.partycontent {
+    background: white;
+    padding: 4%;
+    margin: 1%;
+}
+
+footer {
+    font-size: 0.5em;
+}
+
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: #1c1c1c;
+}
+
+h2 {
+    margin: 0.5em 0 0 0;
+    font-size: 1.4em;
+}
+
+a {
+    text-decoration: none;
+}
+.eat a {
+    color: #003300;
+}
+.drink a {
+    color: #FFB800;
+}
+.chill a {
+    color: #005766;
+}
+.party a {
+    color: #660066;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*PIN STYLING SECTION START*/
+.image-block {
+  min-height: 20em;
+  background: white;
+  /*border: 1px solid gray;*/
+  box-shadow: 3px 3px 2px #888888;
+  float: none;
+  padding: 5%;
+  margin-bottom: 1em;
+}
+.image-block img {
+    height: 150px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #888888;
+    padding: 2px;
+}
+.image-block p {
+    text-align: center;
+}
+
+.image-block.eat {
+    border-left: 4px solid #003300;
+}
+
+.image-block.drink {
+    border-left: 4px solid #FFB800;
+}
+.image-block.chill {
+    border-left: 4px solid #005766;
+}
+.image-block.party {
+    border-left: 4px solid #660066;
+
+}
+/*PIN STYLING SECTION END*/
+
+    #navcontainer ul {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2%;
+        list-style-type: none;
+        text-align: center;
+
+    }
+
+/*navbar styling*/
+    #navcontainer ul li {
+        display: inline;
+    }
+
+    #navcontainer ul li a {
+        text-decoration: none;
+        padding: .2em 1em;
+        color: gray;
+    }
+
+    #navcontainer ul li a:hover {
+        color: black;
+    }
+/*end navbar styling*/
+
+
+/*RESPONSIVE DESIGN START ----------*/
+
+/* Tablet Layout: 768px.
+ */
+
+ @media only screen and (min-width: 768px) {
+    body {
+    }
+ }  
+
+ /* Wide Mobile Layout: 480px.
+ */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+    .image-block {
+        margin-bottom: 5%;
+    }
+    .header {
+        height: 13%;
+    }
+}
+
+/* Mobile Layout: 320px.
+ */
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 0.8em;
+    }
+    .image-block {
+        margin-bottom: 5%;
+    }
+    .header {
+        height: 13%;
+    }
+}
+
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+/* RESPONSIVE DESIGN END */

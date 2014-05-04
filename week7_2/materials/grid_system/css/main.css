@@ -1,0 +1,26 @@
+header {
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
+
+section {
+	background: #F35;
+	padding: 20px;
+}
+
+section section {
+	background: yellow;
+	border: 2px dotted black;
+}
+
+aside {
+	background: #9ef;
+	padding: 20px;
+}
+
+footer {
+	background: #5e3;
+	padding: 20px;
+}
+

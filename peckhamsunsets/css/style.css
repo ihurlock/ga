@@ -16,10 +16,10 @@ body {
 
 
 #wrapper {
-     width: 95%;
+     width: 75%;
      max-width: 1100px;
      min-width: 800px;
-     margin: 30px auto;
+     margin: 0px auto;
 }
 
 #columns {
@@ -32,6 +32,8 @@ body {
      column-count: 3;
      column-gap: 15px;
      column-fill: auto;
+     width: 90%;
+     margin: 0 auto;
 }
 
 
@@ -44,7 +46,7 @@ body {
      -webkit-column-break-inside: avoid;
      -moz-column-break-inside: avoid;
      column-break-inside: avoid;
-     padding: 15px;
+     padding: 7px;
      padding-bottom: 5px;
      background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
      opacity: 1;
@@ -63,9 +65,9 @@ body {
 }
 
 .pin p {
-     font: 1em Arial, sans-serif;
+     font: 1em Raleway, serif;
      color: #333;
-     margin: 0;
+     margin: 0 auto;
 }
 
 .eat {
@@ -84,21 +86,6 @@ body {
      border-bottom: 5px solid green;
 }
 
-@media (min-width: 960px) {
-     #columns {
-          -webkit-column-count: 5;
-          -moz-column-count: 5;
-          column-count: 5;
-     }
-}
-
-@media (min-width: 1100px) {
-     #columns {
-          -webkit-column-count: 7;
-          -moz-column-count: 7;
-          column-count: 7;
-     }
-}
 
 #columns:hover .pin:not(:hover) {
      opacity: 0.4;
@@ -109,34 +96,39 @@ body {
 
 
 header{
-     background-color: black;
+     background: black;
      border-bottom: 5px #993300 solid;
-     height: 170px;
-}
-
-header a{
-     text-decoration: none;
-     color: white;
+     height: 20%;
 }
 
 header .nav-em{
-     font-family: 'Oswald', sans-serif;
+     font-family: 'Merriweather', sans-serif;
      text-transform: uppercase;
 }
 
 header h1{
      padding: 10px;
+     margin: 0 auto;
      text-align: center;
      color: white;
      font-family: 'Merriweather', serif;
 }
 
 nav ul li {
-     display: inline-block;
-     font-size: 1.4em;
-     float: left;
+     display: inline;
+     font-size: 1em;
      color: white;
-     padding-left: 15%;
+
+}
+
+a {
+     text-decoration: none;
+     color: white;
+}
+
+.table {
+     display: table;   /* Allow the centering to work */
+     margin: 0 auto;
 }
 
 h2{
@@ -150,7 +142,35 @@ footer {
      margin: 10px;
 }
 
+/******************************************
+/* RESPONSIVE DESIGN - SCREEN SIZES                  
+/*******************************************/
 
+@media only screen and (min-width: 1100px) {
+     #columns {
+          -webkit-column-count: 5;
+          -moz-column-count: 5;
+          column-count: 5;
+     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+     #columns {
+          -webkit-column-count: 3;
+          -moz-column-count: 3;
+          column-count: 3;
+     }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+     #columns {
+
+          width: 100%;
+     }
+
+}
 
 /******************************************
 /* ADDITIONAL STYLES                   
