@@ -10,7 +10,6 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-    background: black;
 }
 
 
@@ -67,7 +66,7 @@ body {
     font-size: 1em;
     line-height: 1.5;
     cursor: default;
-    background-color: #f3f3f3;
+/*    background-color: #f3f3f3;*/
     height: auto;
     
 }
@@ -75,15 +74,30 @@ body {
 
 .featuredcontent {
     background: url(../img/sunsetbg.jpg) no-repeat fixed center;
+    border-top: 6px gray solid;
+    padding-bottom: 50px;
 }
+.bg1 {
+    background: url(../img/sunsetbg2.jpg) no-repeat fixed center;
+    height: 900px;
+    border-top: 6px gray solid;
+    padding-top: 50px;
+}
+.bg2 {
+    background: url(../img/sunsetbg3.jpg) no-repeat fixed center;
+    height: 950px;
+    border-top: 6px gray solid;
+    padding-top: 50px;
+}
+
 
 .eatcontent,
 .drinkcontent,
 .chillcontent,
 .partycontent {
     background: white;
-    padding: 4%;
-    margin: 1%;
+    padding: 2%;
+    margin: 2%;
 }
 
 footer {
@@ -136,8 +150,8 @@ a {
   /*border: 1px solid gray;*/
   box-shadow: 3px 3px 2px #888888;
   float: none;
-  padding: 5%;
-  margin-bottom: 1em;
+  padding: 3%;
+  margin-bottom: 0.75em;
 }
 .image-block img {
     height: 150px;
@@ -163,6 +177,24 @@ a {
     border-left: 4px solid #660066;
 
 }
+.maincontent .image-block {
+    font-size: 0.9em;
+    padding-bottom: 1px;
+}
+
+.eatcontent h2 {
+    border-bottom: 2px solid #003300;
+}
+.drinkcontent h2 {
+    border-bottom: 2px solid #FFB800;
+}
+.chillcontent h2 {
+    border-bottom: 2px solid #005766;
+}
+.partycontent h2 {
+    border-bottom: 2px solid #660066;
+}
+
 /*PIN STYLING SECTION END*/
 
     #navcontainer ul {

@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Sign Up form</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="page">
+      <h1>Sign Up</h1>
+
+      <form action="#" method="post">
+      	<fieldset>
+      		<label for="username">Username</label>
+      		<input type="text" name="username" id="username" required placeholder="Bill" autofocus>
+      	</fieldset>
+
+      	<fieldset>
+      		<label for"password">Password</label>
+      		<input type="password" name="password" id="password" required>
+      	</fieldset>
+
+      	<fieldset>
+      		<label for"email">Email</label>
+      		<input type="email" name="email" id="email" required>
+      	</fieldset>
+
+      	<fieldset>
+      		<label for"excitedness">Excitedness</label>
+      		<input type="range" min="0" max="100" step="1">
+      	</fieldset>
+      
+      	<fieldset>
+      		<label for"dob">Date of birth</label>
+      		<input type="date" id="dob" name="dob">
+      	</fieldset>
+
+      	<fieldset>
+      		<legend>Favourite Pizza Topping</legend>
+
+      		<label><input type="radio" name="pizza" value="pepperoni" required checked>
+      		Pepperoni
+      		</label>
+
+      		<label><input type="radio" name="pizza" value="pineapple">
+      		Pineapple
+      		</label>
+
+      		<label><input type="radio" name="pizza" value="ham">
+      		Ham
+      		</label>
+      	</fieldset>
+
+      	<fieldset>
+      		<legend>Favourite Colours</legend>
+      		<label>
+      			<input type="checkbox" name="colour[]" value="red">
+      			Red
+      		</label>
+      		<label>
+      			<input type="checkbox" name="colour[]" value="green">
+			Green
+      		</label>
+      		<label>
+      			<input type="checkbox" name="colour[]" value="Blue">
+      			Blue
+      		</label>
+      	</fieldset>
+
+      	<fieldset>
+      		<label for="drink">Favourite Drink</label>
+      		<select name="drink" id="drink">
+      			<optgroup label="Non-Alcoholic">
+					<option value="cola" selected>Cola</option>
+					<option value="water">Water</option>
+      			</optgroup>
+      			
+      			<optgroup label="Alcoholic">
+      				<option value="beer">Beer</option>
+      				<option value="wine">Wine</option>
+      			</optgroup>
+  			</select>
+      	</fieldset>	
+
+      	<input type="submit" value="Sign up!">
+      </form>
+    </div>
+  </body>
+</html>
