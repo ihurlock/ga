@@ -71,12 +71,10 @@ body {
     padding-bottom: 50px;
 }
 .bg1 {
-    background: url(../img/sunsetbg2.jpg) no-repeat fixed center;
-    height: 950px;
+    background: url(../img/sunsetbg2.jpg) repeat fixed center;
+    height: 1200px;
     padding-top: 50px;
 }
-
-
 
 .eatcontent,
 .drinkcontent,
@@ -157,7 +155,6 @@ footer li {
 }
 
 
-
 h1 {
     margin: 0 auto;
     text-align: center;
@@ -187,8 +184,8 @@ a {
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table; 
+    content: " "; /* 1 
+    display: table; /* 2 */
 }
 
 .clearfix:after {
@@ -207,13 +204,11 @@ a {
   margin-bottom: 0.75em;
 }
 .image-block img {
-    height: 150px;
+    height: 300px;
     width: 100%;
     box-shadow: 1px 1px 1px 1px #888888;
     padding: 2px;
 }
-
-
 .image-block p {
     text-align: center;
 }
@@ -232,7 +227,6 @@ a {
     border-left: 4px solid #660066;
 
 }
-
 .maincontent .image-block {
     font-size: 0.9em;
     padding-bottom: 1px;
@@ -285,8 +279,7 @@ a {
  */
 
  @media only screen and (min-width: 768px) {
-    body {
-    }
+
  }  
 
  /* Wide Mobile Layout: 480px.
@@ -314,6 +307,10 @@ a {
     }
     .header {
         height: 13%;
+    }
+    .bg1 {
+      background: none;
+      background-color: black;
     }
 }
 
