@@ -64,6 +64,29 @@ body {
     
 }
 
+#map-canvas {
+  display: block;
+  width: 100%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#map-canvas.active {
+  height: 300px;
+  display: block;
+  transition: height 3s linear;
+}
+
+#map-expander {
+  height: 37px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'patrick hand sc';
+  padding-top: 3px;
+}
 
 .featuredcontent {
     background: url(../img/sunsetbg.jpg) no-repeat fixed center;
@@ -118,7 +141,7 @@ body {
 
 .my-logo {
      color: black;
-     font-family: 'Merriweather';
+     font-family: 'Amatic sc', sans-serif;
 }
 
 .footer-logo {
@@ -178,7 +201,7 @@ footer li {
 }
 
 strong {
-  font-family: 'amatic sc';
+  font-family: 'Amatic sc';
   font-size: 1.5em;
 }
 
